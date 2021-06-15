@@ -46,7 +46,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         // Add a marker in NCC and move the camera
         LatLng ncc = new LatLng(37.923194, 139.044655);
-        mMap.addMarker(new MarkerOptions().position(ncc).title("Marker in mcc"));
+        mMap.addMarker(new MarkerOptions().position(ncc).title("Marker in ncc"));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(ncc,15));
 
         LatLng italy = new LatLng(37.925286 , 139.044171);
