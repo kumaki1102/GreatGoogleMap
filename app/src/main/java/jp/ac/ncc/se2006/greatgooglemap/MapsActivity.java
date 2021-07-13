@@ -52,5 +52,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng italy = new LatLng(37.925286 , 139.044171);
         mMap.addMarker(new MarkerOptions().position(italy).title("Marker in italy"));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(italy,15));
+
+        LatLng bigSwan = new LatLng(37.882572, 139.059143);
+        mMap.addMarker(new MarkerOptions().position(bigSwan).title("Marker in ビッグスワン"));
     }
 }
